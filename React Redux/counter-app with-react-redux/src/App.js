@@ -6,7 +6,7 @@ function App() {
   const dispatch = useDispatch();
 
   const increment = () => {
-    dispatch({ type: "INC" });
+    dispatch({ type: "INC" }); // we send "action" in the "dispatch" method to the "reducerFn" in store's index.js 
   };
   const decrement = () => {
     dispatch({ type: "DEC" });
